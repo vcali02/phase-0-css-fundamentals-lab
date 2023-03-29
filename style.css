@@ -1,5 +1,46 @@
+header{
+  text-align:center;
+}
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+nav a{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: pink;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+figcaption{
+  text-align: center;
+  font-size: smaller;
+}
+
+section#featured-property p{
+  text-align: center;
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section#details div{
+  float: left;
+  background-color: grey;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  bottom-width: 25%;
 }
